@@ -23,5 +23,5 @@ while (Distance > 10)
     count++;
 }
 
-Console.WriteLine ("Колическо раз, что пробежала собака:");
+Console.WriteLine ("Количество раз, что пробежала собака:");
 Console.WriteLine (count);
