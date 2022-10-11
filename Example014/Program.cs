@@ -11,6 +11,7 @@ string text = "- Я думаю, - сказал князь, улыбаясь, - �
 //             012345
 // s[3] // r
 
+// Метод для замены символов
 string Replace(string text, char oldValue, char newValue)
 {
     string result = String.Empty;
@@ -24,6 +25,7 @@ string Replace(string text, char oldValue, char newValue)
     return result;
 }
 
+// Программа
 Console.Clear();
 string newText = Replace(text, ' ', '_');
 Console.WriteLine(newText);
